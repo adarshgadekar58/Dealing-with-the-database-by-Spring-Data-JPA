@@ -18,6 +18,10 @@ public class studentCoaching {
 		student.setName("Adarsh");
 		student.setSubject("Spring Boot");
 		student.setFees(2500.00f);
+		
+	Student saveStudent = bean.saveStudent(student);
+	
+	System.out.println(saveStudent);
 	}
 
 }
